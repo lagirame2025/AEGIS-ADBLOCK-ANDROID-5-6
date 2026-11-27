@@ -8,7 +8,7 @@ import java.net.URL
 import java.util.concurrent.TimeUnit
 
 /** Repo GitHub tempat pipeline menyimpan blocklist.txt & cosmetic.txt. */
-const val BASE_URL = "https://raw.githubusercontent.com/lagirame2025/AEGIS-ADBLOCK-PREMIUM/main/"
+const val BASE_URL = "https://raw.githubusercontent.com/lagirame2025/AEGIS-ADBLOCK-ANDROID-5-6/main/"
 /** Cadangan bila raw.githubusercontent.com tidak bisa dijangkau (DNS/TLS/ISP). */
 val MIRRORS = listOf(
     BASE_URL,
